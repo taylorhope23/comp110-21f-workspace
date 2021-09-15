@@ -13,14 +13,14 @@ from random import randint
 
 
 print("Your fortune cookies says...")
-randint(1, 4)
-if randint == 1:
+n = randint(1, 4)
+if n == 1:
     print("Today you will find a million dollars!")
 else:
-    if randint == 2: 
+    if n == 2: 
         print("You are going to pass COMP110!")
     else:
-        if randint == 3:
+        if n == 3:
             print("You have a secret admirer!")
         else:
             print("The best is yet to come!")
