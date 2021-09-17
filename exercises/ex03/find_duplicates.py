@@ -6,7 +6,7 @@ word: str = input("Enter a word: ")
 dup: bool = False
 
 i: int = 0 
-while i< len(word):
+while i < len(word):
     j: int = i + 1
     char = word[j] == word[i]
     while j < len(word):
